@@ -1,9 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T10:18:04.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="7BX64YGZhcVNT4uJ9Wz-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-18T12:23:15.566Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="74OTMOHEgMG4WygzW-TV" version="21.6.6" type="github">
   <diagram name="Page-1" id="yhZFjcrkP78LpIHWxFgW">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-1" value="Non-Buyer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="100" y="110" width="880" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-3" value="PDP Page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="820" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529.5" y="180" as="sourcePoint" />
+            <mxPoint x="529.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="420" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-6" value="Mini-Checkout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-7" value="&amp;nbsp;1. Enter Delivery Address" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-9" value="&amp;nbsp;2. Select Payment Methods&lt;br&gt;&amp;nbsp;2.1. MixCard - Need Add New Card&lt;br&gt;&amp;nbsp;2.2. Bizum - Need enter a valid Phone Number&lt;br&gt;&amp;nbsp;2.3. Paypal - Need bind Paypal Account&lt;br&gt;&amp;nbsp;2.4. Others, just select the payment methods" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-10" value="&amp;nbsp;3. Click Place Order" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="570" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-11" value="&amp;nbsp;4.&amp;nbsp;mtop.lazada.buy.createorder.arise" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="620" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-12" value="&amp;nbsp;5.&amp;nbsp;mtop.lazada.payment.cashier.front.submit.arise" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="670" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="349.5" y="300" as="sourcePoint" />
+            <mxPoint x="349.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-14" value="Payment Query Page" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="290" y="980" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="580" y="540" width="320" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-16" value="Main-Checkout (Three-Steps)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="580" y="540" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-17" value="&amp;nbsp;1. Enter Delivery Address" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="580" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-18" value="&amp;nbsp;2. Select Payment Methods&lt;br&gt;&amp;nbsp;2.1. MixCard - Need Add New Card&lt;br&gt;&amp;nbsp;2.2. Bizum - Need enter a valid Phone Number&lt;br&gt;&amp;nbsp;2.3. Paypal - Need bind Paypal Account&lt;br&gt;&amp;nbsp;2.4. Others, just select the payment methods" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="630" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-19" value="&amp;nbsp;3. Click Place Order" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="760" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-20" value="&amp;nbsp;4.&amp;nbsp;mtop.lazada.buy.createorder.arise" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="810" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-21" value="&amp;nbsp;5.&amp;nbsp;mtop.lazada.payment.cashier.front.submit.arise" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="860" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-23" value="Cart Page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-24" value="&amp;nbsp;1. Click Checkout Button" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739.5" y="300" as="sourcePoint" />
+            <mxPoint x="739.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="734.5" y="490" as="sourcePoint" />
+            <mxPoint x="734.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="930" as="sourcePoint" />
+            <mxPoint x="660" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="930" as="sourcePoint" />
+            <mxPoint x="400" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-29" value="Payment Result Page (Buyer)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5" y="1050" as="sourcePoint" />
+            <mxPoint x="440" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-31" value="Successful" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSA8pUHTDWn1OBuBrG1i-30">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-33" value="UnPaid Orders" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="850" y="980" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1010" as="sourcePoint" />
+            <mxPoint x="840" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-35" value="Failure" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qSA8pUHTDWn1OBuBrG1i-34">
+          <mxGeometry x="-0.26" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-36" value="二次收银台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1100" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="999.5" y="1050" as="sourcePoint" />
+            <mxPoint x="999.5" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qSA8pUHTDWn1OBuBrG1i-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="1130" as="sourcePoint" />
+            <mxPoint x="710" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
